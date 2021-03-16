@@ -16,7 +16,7 @@ body{
   flex-wrap: wrap;
   justify-content: center;
   margin : 0 auto;
-  padding : 40px, 20px;
+  padding : 40px 20px;
 }
 
 .hero{
@@ -77,3 +77,12 @@ body{
 .hero:nth-child(30) .image{background-image: url("./images/hero30.png");}
 .hero:nth-child(31) .image{background-image: url("./images/hero31.png");}
 .hero:nth-child(32) .image{background-image: url("./images/hero32.png");}
+
+.logo{
+  max-width: 300px;
+  margin : 0 auto;
+  padding : 0 20px;
+}
+.logo img{
+  width: 100%;
+}
