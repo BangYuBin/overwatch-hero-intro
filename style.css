@@ -9,3 +9,23 @@ body{
 .container{
   padding : 50px 0;
 }
+
+.heros{
+  max-width: 700px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin : 0 auto;
+  padding : 40px, 20px;
+}
+
+.hero{
+  width: 80px;
+  height: 84px;
+  margin: 4px;
+  background-color: #555;
+  border : 2px solid #fff;
+  border-radius: 10px;
+  box-sizing: border-box;
+  transform: skewX(-14deg);
+}
