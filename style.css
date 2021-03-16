@@ -26,6 +26,7 @@ body{
   background-color: #555;
   border : 3px solid #fff;
   border-radius: 10px;
+  overflow: hidden;
   box-sizing: border-box;
   transform: skewX(-14deg);
   transition: background-color .5s,
