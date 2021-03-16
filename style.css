@@ -28,4 +28,11 @@ body{
   border-radius: 10px;
   box-sizing: border-box;
   transform: skewX(-14deg);
+  transition: background-color .5s,
+    transform .1s;
+}
+.hero:hover{
+  transform: skewX(-14deg) scale(1.2);
+  background-color: #ff9c00;
+  z-index: 1;
 }
